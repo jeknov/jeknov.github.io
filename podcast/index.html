@@ -119,11 +119,11 @@ pagination:
   </p>
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for ep in site.episodes %}
       <li>
-        <h3><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-        <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}</p>
-        <p>{{ post.description }}</p>
+        <h3><a class="post-title" href="{{ ep.url | prepend: site.baseurl }}">{{ ep.title }}</a></h3>
+        <p class="post-meta">{{ ep.date | date: '%B %-d, %Y' }}</p>
+        <p>{{ ep.description }}</p>
       </li>
     {% endfor %}
   </ul>
