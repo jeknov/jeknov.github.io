@@ -56,6 +56,21 @@ contact_note: >
 google_analytics: UA-203336810-1 # out your google-analytics code
 
 # -----------------------------------------------------------------------------
+# Podcast
+# -----------------------------------------------------------------------------
+
+podcast_name: WiAIR Women in AI Research Podcast  # your podcast must have a name for it to show up in the nav bar
+podcast_description: New episodes released every three weeks on Wednesday.
+permalink: /podcast/:year/:title/
+
+# Pagination
+pagination:
+  enabled: true
+
+# Comments
+disqus_shortname: wiair # put your disqus shortname
+
+# -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
