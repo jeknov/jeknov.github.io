@@ -200,9 +200,9 @@ pagination:
   <p>{{ site.podcast_description }}</p>
 
   <ul class="episode-list">
-    {% for episode in site.episodes %}
+    {% for episode in posts %}
       <li>
-        <h3><a class="post-title" href="{{ episode.url | prepend: site.baseurl }}">{{ episode.title }}</a></h3>
+        <h3><a class="episode-title" href="{{ episode.url | prepend: site.baseurl }}">{{ episode.title }}</a></h3>
         <p class="episode-meta">{{ episode.date | date: '%B %-d, %Y' }}</p>
         <p>{{ episode.description }}</p>
       </li>
