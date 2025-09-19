@@ -185,12 +185,11 @@ pagination:
   <!-- Content -->
 
 <div class="content">
-  <div class="post">
+  <div class="episode">
 
   <div class="header-bar">
     <h2>{{ site.podcast_name }}</h>
     <!-- <h2>{{ site.podcast_description }}</h2> -->
-    <p>{{ site.podcast_description }}</p>
   </div>
     
   <!--
@@ -198,12 +197,13 @@ pagination:
     Women in AI Research (WiAIR) is a podcast dedicated to celebrating the remarkable contributions of female AI researchers from around the globe. Our mission is to challenge the prevailing perception that AI research is predominantly male-driven.
   </p>
     -->
+  <p>{{ site.podcast_description }}</p>
 
-  <ul class="post-list">
+  <ul class="episode-list">
     {% for episode in site.episodes %}
       <li>
         <h3><a class="post-title" href="{{ episode.url | prepend: site.baseurl }}">{{ episode.title }}</a></h3>
-        <p class="post-meta">{{ episode.date | date: '%B %-d, %Y' }}</p>
+        <p class="episode-meta">{{ episode.date | date: '%B %-d, %Y' }}</p>
         <p>{{ episode.description }}</p>
       </li>
     {% endfor %}
