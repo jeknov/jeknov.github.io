@@ -1,7 +1,7 @@
 ---
 pagination:
   enabled: true
-  collection: episodes
+  collection: posts
   permalink: /page/:num/
   per_page: 5
   sort_field: date
@@ -200,7 +200,7 @@ pagination:
   <p>{{ site.podcast_description }}</p>
 
   <ul class="post-list">
-    {% for episode in episodes %}
+    {% for episode in posts %}
       <li>
         <h3><a class="post-title" href="{{ episode.url | prepend: site.baseurl }}">{{ episode.title }}</a></h3>
         <p class="post-meta">{{ episode.date | date: '%B %-d, %Y' }}</p>
