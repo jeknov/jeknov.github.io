@@ -1,7 +1,7 @@
 ---
 layout: distill
 title: "Ep.10: Open Science and LLMs, with Dr. Valentina Pyatkin"
-description: In this episode of the Women in AI Research podcast, hosts Jekaterina Novikova and Malikeh Ehghaghi engage with Valentina Pyatkin to discuss the future of open science, LLM research, and extending model capabilities.
+description: In this episode of the Women in AI Research podcast, Jekaterina Novikova and Malikeh Ehghaghi engage with Valentina Pyatkin to discuss the significance of open science in AI, the importance of mentorship, and the challenges of visibility in research. The conversation delves into the innovative Tulu 3 model, ethical considerations in data usage, and the evolving landscape of evaluation practices in AI research. Valentina shares her insights on the future directions of open AI research, emphasizing inclusivity and collaboration.
 date: 2025-09-17  11:00:00 -0600
 published: true
 
@@ -29,8 +29,6 @@ _styles: >
   }
 
 ---
-
-In this episode of the Women in AI Research podcast, Jekaterina Novikova and Malikeh Ehghaghi engage with Valentina Pyatkin to discuss the significance of open science in AI, the importance of mentorship, and the challenges of visibility in research. The conversation delves into the innovative Tulu 3 model, ethical considerations in data usage, and the evolving landscape of evaluation practices in AI research. Valentina shares her insights on the future directions of open AI research, emphasizing inclusivity and collaboration.
 
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/DPhqm1EHxtU" title="Jekaterina Novikova and Malikeh Ehghaghi talk with Valentina Pyatkin to discuss the significance of open science in AI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </p>
