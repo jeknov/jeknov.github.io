@@ -9,7 +9,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "jeknov/new-website",
+    "data-repo": "jeknov/jeknov.github.io",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
