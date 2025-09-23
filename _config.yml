@@ -2,14 +2,13 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Jekaterina Novikova | AI Researcher # the website title (if blank, full name will be used instead)
+title: 'blank' # the website title (if blank, full name will be used instead)
 first_name: Jekaterina
 middle_name: 
 last_name: Novikova
-contact_note: >
-  # You can even add a little note about which of these is the best way to reach you.
+contact_note: 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Jekaterina Novikova | AI researcher specializing in artificial intelligence, natural language processing.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -47,7 +46,7 @@ repo_trophies:
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
+search_enabled: false
 socials_in_search: true
 posts_in_search: true
 bib_search: true
@@ -62,9 +61,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: true # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -151,6 +150,8 @@ collections:
     output: true
   projects:
     output: true
+  podcast:
+    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -191,6 +192,20 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+# - _news/announcement_*.md
+  - _pages/blog.md
+  - _posts/
+# - _projects/?_project.md
+  - assets/jupyter/
+  - _pages/repositories.md
+  - _includes/repository/
+  - _data/cv.yml
+  - _pages/cv.md
+  - _pages/teaching.md
+  - _pages/profiles.md
+  - _news/*old.md
+  - _pages/books.md
+  - _projects/*old.md
 keep_files:
   - CNAME
   - .nojekyll

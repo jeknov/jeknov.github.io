@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: Talks/Panels
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Invited Talks and Panels | Jekaterina Novikova
 nav: true
-nav_order: 3
-display_categories: [work, fun]
+nav_order: 2
+display_categories: [panels, talks]
 horizontal: false
 ---
 
