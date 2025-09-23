@@ -7,42 +7,42 @@ ninja.data = [{
     title: "About",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/new-website/";
+      window.location.href = "/";
     },
   },{id: "nav-publications",
           title: "Publications",
           description: "Select publications only. See my Google Scholar profile for a full list of publications.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/new-website/publications/";
+            window.location.href = "/publications/";
           },
         },{id: "nav-talks-panels",
           title: "Talks/Panels",
           description: "Invited Talks and Panels | Jekaterina Novikova",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/new-website/projects/";
+            window.location.href = "/projects/";
           },
         },{id: "nav-wiair-podcast",
           title: "WiAIR Podcast",
           description: "Women in AI Research WiAIR podcast",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/new-website/podcast/";
+            window.location.href = "/podcast/";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/new-website/books/";
+                window.location.href = "/books/";
               },
             },{id: "dropdown-blog",
               title: "blog",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/new-website/blog/";
+                window.location.href = "/blog/";
               },
             },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         
@@ -70,7 +70,7 @@ ninja.data = [{
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/new-website/books/the_godfather/";
+              window.location.href = "/books/the_godfather/";
             },},{id: "news-my-team-organized-the-ml4cmh2024-workshop-on-machine-learning-for-cognitive-and-mental-health-at-aaai-2024",
           title: 'My team organized the ML4CMH2024 Workshop on Machine Learning for Cognitive and Mental...',
           description: "",
@@ -90,102 +90,102 @@ ninja.data = [{
           title: 'Open Science and LLMs',
           description: "Guest: Dr. Valentina Pyatkin",
           section: "Podcast",handler: () => {
-              window.location.href = "/new-website/podcast/01_ep/";
+              window.location.href = "/podcast/01_ep/";
             },},{id: "podcast-unlocking-llm-reasoning",
           title: 'Unlocking LLM Reasoning',
           description: "Guest: Simeng Sophia Han",
           section: "Podcast",handler: () => {
-              window.location.href = "/new-website/podcast/02_ep/";
+              window.location.href = "/podcast/02_ep/";
             },},{id: "podcast-llm-hallucinations-and-machine-unlearning",
           title: 'LLM Hallucinations and Machine Unlearning',
           description: "Guest: Dr. Abhilasha Ravichander",
           section: "Podcast",handler: () => {
-              window.location.href = "/new-website/podcast/03_ep/";
+              window.location.href = "/podcast/03_ep/";
             },},{id: "podcast-generalization-in-ai",
           title: 'Generalization in AI',
           description: "Guest: Dr. Dieuwke Hupkes",
           section: "Podcast",handler: () => {
-              window.location.href = "/new-website/podcast/04_ep/";
+              window.location.href = "/podcast/04_ep/";
             },},{id: "podcast-decentralized-ai",
           title: 'Decentralized AI',
           description: "Guest: Wanru Zhao",
           section: "Podcast",handler: () => {
-              window.location.href = "/new-website/podcast/05_ep/";
+              window.location.href = "/podcast/05_ep/";
             },},{id: "podcast-interpretable-ai",
           title: 'Interpretable AI',
           description: "Guest: Dr. Faiza Khan Khattak",
           section: "Podcast",handler: () => {
-              window.location.href = "/new-website/podcast/06_ep/";
+              window.location.href = "/podcast/06_ep/";
             },},{id: "podcast-robots-with-empathy",
           title: 'Robots with Empathy',
           description: "Guest: Dr. Angelica Lim",
           section: "Podcast",handler: () => {
-              window.location.href = "/new-website/podcast/07_ep/";
+              window.location.href = "/podcast/07_ep/";
             },},{id: "podcast-responsible-ai-for-health",
           title: 'Responsible AI for Health',
           description: "Guest: Aparna Balagopalan",
           section: "Podcast",handler: () => {
-              window.location.href = "/new-website/podcast/08_ep/";
+              window.location.href = "/podcast/08_ep/";
             },},{id: "podcast-bias-in-ai",
           title: 'Bias in AI',
           description: "Guest: Dr. Amanda Cercas Curry",
           section: "Podcast",handler: () => {
-              window.location.href = "/new-website/podcast/09_ep/";
+              window.location.href = "/podcast/09_ep/";
             },},{id: "podcast-limits-of-transformers",
           title: 'Limits of Transformers',
           description: "Guest: Dr. Nouha Dziri",
           section: "Podcast",handler: () => {
-              window.location.href = "/new-website/podcast/10_ep/";
+              window.location.href = "/podcast/10_ep/";
             },},{id: "projects-nlp4science-workshop-emnlp-2024",
           title: 'NLP4Science Workshop (EMNLP 2024)',
           description: "EMNLP 2024",
           section: "Projects",handler: () => {
-              window.location.href = "/new-website/projects/01_project/";
+              window.location.href = "/projects/01_project/";
             },},{id: "projects-ml-for-cognitive-and-mental-health-workshop-aaai-2024",
           title: 'ML for Cognitive and Mental Health Workshop (AAAI 2024)',
           description: "AAAI 2024",
           section: "Projects",handler: () => {
-              window.location.href = "/new-website/projects/02_project/";
+              window.location.href = "/projects/02_project/";
             },},{id: "projects-how-to-make-llms-efficient",
           title: 'How to Make LLMs Efficient?',
           description: "The SLM Show",
           section: "Projects",handler: () => {
-              window.location.href = "/new-website/projects/03_project/";
+              window.location.href = "/projects/03_project/";
             },},{id: "projects-the-dual-nature-of-consistency-in-foundation-models",
           title: 'The Dual Nature of Consistency in Foundation Models',
           description: "TMLS 2024",
           section: "Projects",handler: () => {
-              window.location.href = "/new-website/projects/04_project/";
+              window.location.href = "/projects/04_project/";
             },},{id: "projects-bias-in-large-language-models",
           title: 'Bias in Large Language Models',
           description: "TMLS 2023",
           section: "Projects",handler: () => {
-              window.location.href = "/new-website/projects/05_project/";
+              window.location.href = "/projects/05_project/";
             },},{id: "projects-deep-learning-methods-for-mental-health-prediction",
           title: 'Deep Learning Methods for Mental Health Prediction',
           description: "Re-Work Toronto AI Summit 2023",
           section: "Projects",handler: () => {
-              window.location.href = "/new-website/projects/06_project/";
+              window.location.href = "/projects/06_project/";
             },},{id: "projects-machine-learning-methods-in-detecting-alzheimer-s-disease-from-speech-and-language",
           title: 'Machine Learning Methods in Detecting Alzheimer’s Disease from Speech and Language',
           description: "MLconf 2019",
           section: "Projects",handler: () => {
-              window.location.href = "/new-website/projects/07_project/";
+              window.location.href = "/projects/07_project/";
             },},{id: "projects-solving-real-life-challenges-in-detecting-cognitive-diseases-from-speech-using-ml",
           title: 'Solving Real-Life Challenges in Detecting Cognitive Diseases from Speech Using ML',
           description: "ODSC 2019",
           section: "Projects",handler: () => {
-              window.location.href = "/new-website/projects/08_project/";
+              window.location.href = "/projects/08_project/";
             },},{id: "projects-socially-intelligent-robot-and-its-impact-on-customer-experience",
           title: 'Socially Intelligent Robot and Its Impact on Customer Experience',
           description: "CogX 2017",
           section: "Projects",handler: () => {
-              window.location.href = "/new-website/projects/09_project/";
+              window.location.href = "/projects/09_project/";
             },},{id: "projects-life-as-a-researcher-in-the-department-of-computer-science",
           title: 'Life As a Researcher in the Department of Computer Science',
           description: "University of Bath",
           section: "Projects",handler: () => {
-              window.location.href = "/new-website/projects/10_project/";
+              window.location.href = "/projects/10_project/";
             },},{
         id: 'social-scholar',
         title: 'Google Scholar',
