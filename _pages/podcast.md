@@ -26,7 +26,7 @@ In 2025, the day of March 8th was even more special to me because that day, toge
 I’d love for you to be part of this journey - subscribe to the podcast, follow us on social media for updates about our amazing guests and their work, and come say hello in our LinkedIn and Discord communities!
 
 - [Youtube](https://www.youtube.com/@WomeninAIResearch)
-- [Spotify](creators.spotify.com/pod/show/wiair)
+- [Spotify](https://open.spotify.com/show/51RJNlZarFTJXXIlz5Qx3M)
 - [LinkedIn](https://www.linkedin.com/company/women-in-ai-research)
 - [X/Twitter](https://x.com/WiAIR_podcast)
 - [Bluesky](https://bsky.app/profile/wiair.bsky.social)
