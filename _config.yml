@@ -206,6 +206,10 @@ exclude:
   - _news/*old.md
   - _pages/books.md
   - _projects/*old.md
+  - _books/
+  - _posts/
+  - _pages/blog.md
+  - _pages/dropdown.md
 keep_files:
   - CNAME
   - .nojekyll
