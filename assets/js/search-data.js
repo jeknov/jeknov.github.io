@@ -224,6 +224,13 @@ ninja.data = [{
           window.open("https://github.com/jeknov", "_blank");
         },
       },{
+        id: 'social-acm',
+        title: 'ACM DL',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://dl.acm.org/profile/87358850257/", "_blank");
+        },
+      },{
         id: 'social-ieee',
         title: 'IEEE Xplore',
         section: 'Socials',
