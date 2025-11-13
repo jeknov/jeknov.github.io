@@ -117,6 +117,11 @@ ninja.data = [{
           description: "Guest: Dr. Nouha Dziri",
           section: "Podcast",handler: () => {
               window.location.href = "/podcast/10_ep/";
+            },},{id: "podcast-can-we-trust-ai-explanations",
+          title: 'Can We Trust AI Explanations?',
+          description: "Guest: Dr. Ana Marasović",
+          section: "Podcast",handler: () => {
+              window.location.href = "/podcast/11_ep/";
             },},{id: "projects-nlp4science-workshop-emnlp-2024",
           title: 'NLP4Science Workshop (EMNLP 2024)',
           description: "EMNLP 2024",
