@@ -19,6 +19,8 @@ images:
 }
 </style>
 
+WiAIR explores frontier AI research through conversations with leading women in the field. Topics include LLM evaluation, reliability, safety, and the future of open science in AI.
+
 International Women's Day has always been a very special day for me, the day when I reflect on the great impact that women had throughout my life and career. I am extremely lucky to have met many amazing women who were my mentors, advisors, colleagues, collaborators, friends and role models during various stages of my professional life, and I appreciate the very important role they have played in my life.
 
 In 2025, the day of March 8th was even more special to me because that day, together with the team of brilliant people, I launched the new podcast [Women in AI Research WiAIR](https://women-in-ai-research.github.io/). With this podcast, I celebrate the remarkable contributions of female AI researchers from around the globe.
