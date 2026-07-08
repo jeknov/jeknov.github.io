@@ -52,14 +52,14 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "news-i-launched-a-new-podcast-women-in-ai-research-wiair",
-          title: 'I launched a new podcast, Women in AI Research WiAIR',
-          description: "",
-          section: "News",},{id: "news-i-co-organized-the-heal-workshop-on-human-centered-evaluation-and-auditing-of-language-models-which-returned-at-chi-2025",
+      },{id: "news-i-co-organized-the-heal-workshop-on-human-centered-evaluation-and-auditing-of-language-models-which-returned-at-chi-2025",
           title: 'I co-organized the HEAL Workshop on Human-centered Evaluation and Auditing of Language Models,...',
           description: "",
           section: "News",},{id: "news-paper-accepted-at-icml-2025-workshop-consistency-in-language-models",
           title: 'Paper accepted at ICML 2025 workshop: “Consistency in Language Models”',
+          description: "",
+          section: "News",},{id: "news-include-received-spotlight-at-iclr-2025",
+          title: 'INCLUDE received Spotlight at ICLR 2025',
           description: "",
           section: "News",},{id: "news-i-co-organized-the-first-workshop-on-llm-security-llmsec-held-at-acl-2025",
           title: 'I co-organized the First Workshop on LLM Security LLMSEC, held at ACL 2025...',
