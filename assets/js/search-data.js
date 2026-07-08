@@ -117,7 +117,7 @@ ninja.data = [{
           section: "Podcast",handler: () => {
               window.location.href = "/podcast/08_ep/";
             },},{id: "podcast-bias-in-ai",
-          title: 'Bias in AI',
+          title: '📌 Bias in AI',
           description: "Guest: Dr. Amanda Cercas Curry",
           section: "Podcast",handler: () => {
               window.location.href = "/podcast/09_ep/";
