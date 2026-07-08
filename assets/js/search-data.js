@@ -127,7 +127,7 @@ ninja.data = [{
           section: "Podcast",handler: () => {
               window.location.href = "/podcast/10_ep/";
             },},{id: "podcast-can-we-trust-ai-explanations",
-          title: 'Can We Trust AI Explanations?',
+          title: '📌 Can We Trust AI Explanations?',
           description: "Guest: Dr. Ana Marasović",
           section: "Podcast",handler: () => {
               window.location.href = "/podcast/11_ep/";
