@@ -77,7 +77,7 @@ ninja.data = [{
           title: 'Causal Risk Minimization for High-Dimensional Treatments accepted at ICML 2026 workshop',
           description: "",
           section: "News",},{id: "podcast-open-science-and-llms",
-          title: 'Open Science and LLMs',
+          title: '📌 Open Science and LLMs',
           description: "Guest: Dr. Valentina Pyatkin",
           section: "Podcast",handler: () => {
               window.location.href = "/podcast/01_ep/";
