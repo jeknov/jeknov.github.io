@@ -85,7 +85,7 @@ ninja.data = [{
           title: 'Unlocking LLM Reasoning',
           description: "Guest: Simeng Sophia Han",
           section: "Podcast",handler: () => {
-              window.location.href = "/podcast/02_ep-old/";
+              window.location.href = "/podcast/02_ep/";
             },},{id: "podcast-llm-hallucinations-and-machine-unlearning",
           title: '📌 LLM Hallucinations and Machine Unlearning',
           description: "Guest: Dr. Abhilasha Ravichander",
