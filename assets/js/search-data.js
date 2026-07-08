@@ -122,7 +122,7 @@ ninja.data = [{
           section: "Podcast",handler: () => {
               window.location.href = "/podcast/09_ep/";
             },},{id: "podcast-limits-of-transformers",
-          title: 'Limits of Transformers',
+          title: '📌 Limits of Transformers',
           description: "Guest: Dr. Nouha Dziri",
           section: "Podcast",handler: () => {
               window.location.href = "/podcast/10_ep/";
