@@ -196,6 +196,11 @@ ninja.data = [{
           description: "Canadian Conference on AI, Robots &amp; Vision",
           section: "Projects",handler: () => {
               window.location.href = "/projects/12_project/";
+            },},{id: "projects-open-model-and-open-access-in-ai",
+          title: 'Open Model and Open Access in AI',
+          description: "Canadian Conference on AI, Robots &amp; Vision",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/13_project/";
             },},{
         id: 'social-scholar',
         title: 'Google Scholar',
