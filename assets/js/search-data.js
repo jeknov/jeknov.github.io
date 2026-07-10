@@ -145,7 +145,7 @@ ninja.data = [{
           title: 'ML for Cognitive and Mental Health Workshop (AAAI 2024)',
           description: "AAAI 2024",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/02_project/";
+              window.location.href = "/projects/022_project/";
             },},{id: "projects-how-to-make-llms-efficient",
           title: 'How to Make LLMs Efficient?',
           description: "The SLM Show",
