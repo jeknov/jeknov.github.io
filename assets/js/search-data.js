@@ -186,9 +186,9 @@ ninja.data = [{
           description: "University of Bath",
           section: "Projects",handler: () => {
               window.location.href = "/projects/10_project/";
-            },},{id: "projects-",
-          title: '',
-          description: "",
+            },},{id: "projects-women-in-industry-research",
+          title: 'Women in Industry Research',
+          description: "Build with AI - Women in Tech",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11_project/";
             },},{
