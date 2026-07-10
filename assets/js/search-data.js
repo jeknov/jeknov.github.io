@@ -140,7 +140,7 @@ ninja.data = [{
           title: 'NLP4Science Workshop (EMNLP 2024)',
           description: "EMNLP 2024",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/01_project/";
+              window.location.href = "/projects/021_project/";
             },},{id: "projects-ml-for-cognitive-and-mental-health-workshop-aaai-2024",
           title: 'ML for Cognitive and Mental Health Workshop (AAAI 2024)',
           description: "AAAI 2024",
