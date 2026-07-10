@@ -136,6 +136,11 @@ ninja.data = [{
           description: "Guest: Dr. Vered Shwartz",
           section: "Podcast",handler: () => {
               window.location.href = "/podcast/12_ep/";
+            },},{id: "projects-women-in-industry-research",
+          title: 'Women in Industry Research',
+          description: "Build with AI - Women in Tech",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/020_project/";
             },},{id: "projects-nlp4science-workshop-emnlp-2024",
           title: 'NLP4Science Workshop (EMNLP 2024)',
           description: "EMNLP 2024",
@@ -186,11 +191,6 @@ ninja.data = [{
           description: "University of Bath",
           section: "Projects",handler: () => {
               window.location.href = "/projects/030_project/";
-            },},{id: "projects-women-in-industry-research",
-          title: 'Women in Industry Research',
-          description: "Build with AI - Women in Tech",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/11_project/";
             },},{id: "projects-multi-turn-safety-in-financial-ai",
           title: 'Multi-Turn Safety in Financial AI',
           description: "Canadian Conference on AI, Robots &amp; Vision",
