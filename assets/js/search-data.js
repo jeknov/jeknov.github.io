@@ -191,6 +191,11 @@ ninja.data = [{
           description: "Build with AI - Women in Tech",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11_project/";
+            },},{id: "projects-multi-turn-safety-in-financial-ai",
+          title: 'Multi-Turn Safety in Financial AI',
+          description: "Canadian Conference on AI, Robots &amp; Vision",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/12_project/";
             },},{
         id: 'social-scholar',
         title: 'Google Scholar',
