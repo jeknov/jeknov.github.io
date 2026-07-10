@@ -136,6 +136,11 @@ ninja.data = [{
           description: "Guest: Dr. Vered Shwartz",
           section: "Podcast",handler: () => {
               window.location.href = "/podcast/12_ep/";
+            },},{id: "projects-open-model-and-open-access-in-ai",
+          title: 'Open Model and Open Access in AI',
+          description: "Canadian Conference on AI, Robots &amp; Vision",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/018_project/";
             },},{id: "projects-multi-turn-safety-in-financial-ai",
           title: 'Multi-Turn Safety in Financial AI',
           description: "Canadian Conference on AI, Robots &amp; Vision",
@@ -196,11 +201,6 @@ ninja.data = [{
           description: "University of Bath",
           section: "Projects",handler: () => {
               window.location.href = "/projects/030_project/";
-            },},{id: "projects-open-model-and-open-access-in-ai",
-          title: 'Open Model and Open Access in AI',
-          description: "Canadian Conference on AI, Robots &amp; Vision",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/13_project/";
             },},{
         id: 'social-scholar',
         title: 'Google Scholar',
