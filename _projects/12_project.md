@@ -2,7 +2,7 @@
 layout: page
 title: Multi-Turn Safety in Financial AI
 description: Canadian Conference on AI, Robots & Vision
-img: assets/img/bath2013.png
+img: assets/img/ai-crv-talk.jpeg
 importance: 1
 category: talks
 related_publications: false
