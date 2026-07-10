@@ -7,5 +7,5 @@ importance: 1
 category: panels
 related_publications: false
 month_year: May 2026
-external_url: 
+external_url: https://www.ai-crv.ca/program/workshops/industry-track/
 ---
