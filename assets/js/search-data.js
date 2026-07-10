@@ -165,12 +165,12 @@ ninja.data = [{
           title: 'Deep Learning Methods for Mental Health Prediction',
           description: "Re-Work Toronto AI Summit 2023",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/06_project/";
+              window.location.href = "/projects/026_project/";
             },},{id: "projects-machine-learning-methods-in-detecting-alzheimer-s-disease-from-speech-and-language",
           title: 'Machine Learning Methods in Detecting Alzheimer’s Disease from Speech and Language',
           description: "MLconf 2019",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/07_project/";
+              window.location.href = "/projects/027_project/";
             },},{id: "projects-solving-real-life-challenges-in-detecting-cognitive-diseases-from-speech-using-ml",
           title: 'Solving Real-Life Challenges in Detecting Cognitive Diseases from Speech Using ML',
           description: "ODSC 2019",
