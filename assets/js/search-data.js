@@ -160,7 +160,7 @@ ninja.data = [{
           title: 'Bias in Large Language Models',
           description: "TMLS 2023",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/05_project/";
+              window.location.href = "/projects/025_project/";
             },},{id: "projects-deep-learning-methods-for-mental-health-prediction",
           title: 'Deep Learning Methods for Mental Health Prediction',
           description: "Re-Work Toronto AI Summit 2023",
