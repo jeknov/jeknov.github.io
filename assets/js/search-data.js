@@ -186,6 +186,11 @@ ninja.data = [{
           description: "University of Bath",
           section: "Projects",handler: () => {
               window.location.href = "/projects/10_project/";
+            },},{id: "projects-",
+          title: '',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/11_project/";
             },},{
         id: 'social-scholar',
         title: 'Google Scholar',
