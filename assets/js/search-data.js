@@ -180,7 +180,7 @@ ninja.data = [{
           title: 'Socially Intelligent Robot and Its Impact on Customer Experience',
           description: "CogX 2017",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/029_project/";
+              window.location.href = "/projects/09_project/";
             },},{id: "projects-life-as-a-researcher-in-the-department-of-computer-science",
           title: 'Life As a Researcher in the Department of Computer Science',
           description: "University of Bath",
