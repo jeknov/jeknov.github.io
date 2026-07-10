@@ -175,12 +175,12 @@ ninja.data = [{
           title: 'Solving Real-Life Challenges in Detecting Cognitive Diseases from Speech Using ML',
           description: "ODSC 2019",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/08_project/";
+              window.location.href = "/projects/028_project/";
             },},{id: "projects-socially-intelligent-robot-and-its-impact-on-customer-experience",
           title: 'Socially Intelligent Robot and Its Impact on Customer Experience',
           description: "CogX 2017",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/09_project/";
+              window.location.href = "/projects/029_project/";
             },},{id: "projects-life-as-a-researcher-in-the-department-of-computer-science",
           title: 'Life As a Researcher in the Department of Computer Science',
           description: "University of Bath",
