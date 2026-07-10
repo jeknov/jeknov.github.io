@@ -150,12 +150,12 @@ ninja.data = [{
           title: 'How to Make LLMs Efficient?',
           description: "The SLM Show",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/03_project/";
+              window.location.href = "/projects/023_project/";
             },},{id: "projects-the-dual-nature-of-consistency-in-foundation-models",
           title: 'The Dual Nature of Consistency in Foundation Models',
           description: "TMLS 2024",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/04_project/";
+              window.location.href = "/projects/024_project/";
             },},{id: "projects-bias-in-large-language-models",
           title: 'Bias in Large Language Models',
           description: "TMLS 2023",
