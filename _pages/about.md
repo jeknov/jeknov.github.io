@@ -29,7 +29,7 @@ latest_posts:
 
 I am an AI researcher, specializing in **evaluation and reliability of foundation models** - the science of knowing when language models can be trusted, and catching them when they can't.
 
-For the past decase, my work has been driven by one question: how do we rigorously evaluate AI systems deployed in domains where failure is unacceptable? I built the E2E NLG Challenge that became a community evaluation standard. I developed and deployed machine learning systems for clinical assessment where model errors affect patient outcomes. Now, at [Vanguard](https://corporate.vanguard.com/), I study consistency, reliability and safety guarantees for large language models in high-stakes financial settings.
+For the past decade, my work has been driven by one question: how do we rigorously evaluate AI systems deployed in domains where failure is unacceptable? I built the E2E NLG Challenge that became a community evaluation standard. I developed and deployed machine learning systems for clinical assessment where model errors affect patient outcomes. Now, at [Vanguard](https://corporate.vanguard.com/), I study consistency, reliability and safety guarantees for large language models in high-stakes financial settings.
 
 My current research focuses on LLM consistency (ICML 2025), multilingual evaluation at scale (INCLUDE - ICLR 2025 Spotlight; Kaleidoscope), and reliability guarantees for foundation models in regulated industries. I'm also a founder of the Women in AI Research [WiAIR podcast](https://www.youtube.com/@WomeninAIResearch) and an advocate for open-source AI research, having contributed to [BLOOM LLM](https://huggingface.co/bigscience/bloom), [BIG-Bench](https://github.com/google/BIG-bench), and other open community projects.
 
@@ -43,4 +43,4 @@ My research has been recognised by the artificial intelligence and natural langu
 
 I was fortunate to work with brilliant researchers in the field. I have worked, among many others, with [Joana Bryson](https://www.joannajbryson.org/) (now at Hertie School in Berlin, Germany), with [Verena Rieser](https://sites.google.com/site/verenateresarieser/) (now at Google DeepMind), with [Oliver Lemon](https://sites.google.com/site/olemon/) at the [Heriot-Watt University](https://www.hw.ac.uk/about/our-schools/mathematical-and-computer-sciences) in Edinburgh, UK, and with [Frank Rudzicz](https://web.cs.dal.ca/~rudzicz/) (now at Dalhousie University in Halifax, Canada). 
 
-Previously: Director of ML Research at Winterlight Labs / Cambridge Congition. PhD in Computer Science, [University of Bath, UK](https://www.bath.ac.uk/).
+Previously: Director of ML Research at Winterlight Labs / Cambridge Cognition. PhD in Computer Science, [University of Bath, UK](https://www.bath.ac.uk/).
