@@ -127,22 +127,22 @@ ninja.data = [{
           section: "Podcast",handler: () => {
               window.location.href = "/podcast/08_ep/";
             },},{id: "podcast-bias-in-ai",
-          title: 'Bias in AI',
+          title: '📌 Bias in AI',
           description: "Guest: Dr. Amanda Cercas Curry",
           section: "Podcast",handler: () => {
               window.location.href = "/podcast/09_ep/";
             },},{id: "podcast-limits-of-transformers",
-          title: 'Limits of Transformers',
+          title: '📌 Limits of Transformers',
           description: "Guest: Dr. Nouha Dziri",
           section: "Podcast",handler: () => {
               window.location.href = "/podcast/10_ep/";
             },},{id: "podcast-can-we-trust-ai-explanations",
-          title: 'Can We Trust AI Explanations?',
+          title: '📌 Can We Trust AI Explanations?',
           description: "Guest: Dr. Ana Marasović",
           section: "Podcast",handler: () => {
               window.location.href = "/podcast/11_ep/";
             },},{id: "podcast-why-ai-doesn-t-understand-your-culture",
-          title: 'Why AI Doesn’t Understand Your Culture?',
+          title: '📌 Why AI Doesn’t Understand Your Culture?',
           description: "Guest: Dr. Vered Shwartz",
           section: "Podcast",handler: () => {
               window.location.href = "/podcast/12_ep/";
