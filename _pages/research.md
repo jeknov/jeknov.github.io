@@ -7,7 +7,7 @@ nav: true
 nav_order: 1
 ---
 
-# Evaluation That Earns Trust
+## Evaluation That Earns Trust
  
 After everything foundation models can now do for us, here's what we still can't do: tell in advance, with any real justification, when to trust them. 
 This problem is more worrisome than it first appears. Imagine you reword a question and the model's answer flips, while it sounds every bit as sure of itself both times. 
