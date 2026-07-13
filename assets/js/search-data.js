@@ -87,7 +87,7 @@ ninja.data = [{
           title: 'The Vanguard Research Lab at the University of Toronto is now live. I’m...',
           description: "",
           section: "News",},{id: "podcast-open-science-and-llms",
-          title: '📌 Open Science and LLMs',
+          title: 'Open Science and LLMs',
           description: "Guest: Dr. Valentina Pyatkin",
           section: "Podcast",handler: () => {
               window.location.href = "/podcast/01_ep/";
