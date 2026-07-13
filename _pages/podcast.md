@@ -4,7 +4,7 @@ title: WiAIR Podcast
 permalink: /podcast/
 description: Women in AI Research WiAIR podcast
 nav: true
-nav_order: 3
+nav_order: 4
 display_categories: [episodes]
 horizontal: false
 images:
