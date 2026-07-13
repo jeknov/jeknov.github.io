@@ -47,7 +47,7 @@ work on evaluation, reliability, and multilingual NLP:
 - **[Benjamin Eyre](https://scholar.google.com/citations?hl=en&user=Ww1QOOkAAAAJ)** — research intern at Winterlight Labs (now - PhD student at Columbia University)
 - **[Brian Diep](https://www.linkedin.com/in/brian-diep/)** — intern research engineer at Winterlight Labs (now - ML Engineer at Flagler Health)
 - **[Mashrura Tasnim](https://apps.ualberta.ca/directory/person/mashrura)** - intern research engineer at Winterlight Labs (now - Assoc. Lecturer at University of Alberta)
-- **[Marija Stanojevic](https://www.linkedin.com/in/brian-diep/)** — applied ML scientist at Cambridge Cognition (now - Lead Applied ML Scientist at Ellipsis Health)
+- **[Marija Stanojevic](https://marija-stanojevic.github.io/)** — applied ML scientist at Cambridge Cognition (now - Lead Applied ML Scientist at Ellipsis Health)
 - **[Freyam Mehta](https://www.linkedin.com/in/freyam-mehta/)** - AI/ML security researcher at AVID (now - Founding Engineer at Overmind)
 - **[Prince Mireku](https://pmireku.github.io/princemireku/)** - supervised on [AfriCaption](https://aclanthology.org/2026.africanlp-main.5/) paper / accpeted at AfricaNLP @ ACL (now - Student Researcher at Google)
 - **[Mardiyyah Oduwole](https://mardiyyahoduwole.com/)** - supervised on [AfriCaption](https://aclanthology.org/2026.africanlp-main.5/) paper / accpeted at AfricaNLP @ ACL (now - ML Engineer at Peppa)
