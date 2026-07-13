@@ -137,12 +137,12 @@ ninja.data = [{
           section: "Podcast",handler: () => {
               window.location.href = "/podcast/10_ep/";
             },},{id: "podcast-can-we-trust-ai-explanations",
-          title: '📌 Can We Trust AI Explanations?',
+          title: 'Can We Trust AI Explanations?',
           description: "Guest: Dr. Ana Marasović",
           section: "Podcast",handler: () => {
               window.location.href = "/podcast/11_ep/";
             },},{id: "podcast-why-ai-doesn-t-understand-your-culture",
-          title: '📌 Why AI Doesn’t Understand Your Culture?',
+          title: 'Why AI Doesn’t Understand Your Culture?',
           description: "Guest: Dr. Vered Shwartz",
           section: "Podcast",handler: () => {
               window.location.href = "/podcast/12_ep/";
