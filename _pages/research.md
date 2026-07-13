@@ -28,7 +28,7 @@ These commitments converge on a single deliverable: evaluation infrastructure th
 could run in their own language, on their own cases, and audit end to end. I pursue this in the domains where the cost of being wrong 
 is highest, first in healthcare and now in finance. In these domains, regulators do not ask about averages, they ask about the worst case, 
 the specific customer, the reproducibility of a specific decision. Academic benchmarks were never designed to answer these questions, and 
-that generate new evaluation problems.
+that generates new evaluation problems.
  
 The next five years of my work aim at three of them: reliability evaluation for multi-turn agentic systems, where single-shot benchmarks simply cannot see the problem; 
 a dynamic reliability leaderboard; and consistency metrics mature enough to serve as deployment gates in regulated industries. 
@@ -49,6 +49,6 @@ work on evaluation, reliability, and multilingual NLP:
 - **[Mashrura Tasnim](https://apps.ualberta.ca/directory/person/mashrura)** - research intern at Winterlight Labs (now - Assoc. Lecturer at University of Alberta)
 - **[Marija Stanojevic](https://marija-stanojevic.github.io/)** — applied ML scientist at Cambridge Cognition (now - Lead Applied ML Scientist at Ellipsis Health)
 - **[Freyam Mehta](https://www.linkedin.com/in/freyam-mehta/)** - AI/ML security researcher at AVID (now - Founding Engineer at Overmind)
-- **[Prince Mireku](https://pmireku.github.io/princemireku/)** - supervised on [AfriCaption](https://aclanthology.org/2026.africanlp-main.5/) paper / accpeted at AfricaNLP @ ACL (now - Student Researcher at Google)
-- **[Mardiyyah Oduwole](https://mardiyyahoduwole.com/)** - supervised on [AfriCaption](https://aclanthology.org/2026.africanlp-main.5/) paper / accpeted at AfricaNLP @ ACL (now - ML Engineer at Peppa)
+- **[Prince Mireku](https://pmireku.github.io/princemireku/)** - supervised on [AfriCaption](https://aclanthology.org/2026.africanlp-main.5/) paper / accepted at AfricaNLP @ ACL (now - Student Researcher at Google)
+- **[Mardiyyah Oduwole](https://mardiyyahoduwole.com/)** - supervised on [AfriCaption](https://aclanthology.org/2026.africanlp-main.5/) paper / accepted at AfricaNLP @ ACL (now - ML Engineer at Peppa)
 
