@@ -97,7 +97,7 @@ ninja.data = [{
           section: "Podcast",handler: () => {
               window.location.href = "/podcast/02_ep/";
             },},{id: "podcast-llm-hallucinations-and-machine-unlearning",
-          title: '📌 LLM Hallucinations and Machine Unlearning',
+          title: 'LLM Hallucinations and Machine Unlearning',
           description: "Guest: Dr. Abhilasha Ravichander",
           section: "Podcast",handler: () => {
               window.location.href = "/podcast/03_ep/";
@@ -127,12 +127,12 @@ ninja.data = [{
           section: "Podcast",handler: () => {
               window.location.href = "/podcast/08_ep/";
             },},{id: "podcast-bias-in-ai",
-          title: '📌 Bias in AI',
+          title: 'Bias in AI',
           description: "Guest: Dr. Amanda Cercas Curry",
           section: "Podcast",handler: () => {
               window.location.href = "/podcast/09_ep/";
             },},{id: "podcast-limits-of-transformers",
-          title: '📌 Limits of Transformers',
+          title: 'Limits of Transformers',
           description: "Guest: Dr. Nouha Dziri",
           section: "Podcast",handler: () => {
               window.location.href = "/podcast/10_ep/";
