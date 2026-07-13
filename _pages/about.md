@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an AI researcher, specializing in **evaluation and reliability of foundation models** - the science of knowing when language models can be trusted, and catching them when they can't.
+I'm Principal AI Research Scientist at Vanguard, specializing in **evaluation and reliability of foundation models** - the science of knowing when language models can be trusted, and catching them when they can't.
 
 For the past decade, my work has been driven by one question: how do we rigorously evaluate AI systems deployed in domains where failure is unacceptable? I built the E2E NLG Challenge that became a community evaluation standard. I developed and deployed machine learning systems for clinical assessment where model errors affect patient outcomes. Now, at [Vanguard](https://corporate.vanguard.com/), I study consistency, reliability and safety guarantees for large language models in high-stakes financial settings.
 
