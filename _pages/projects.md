@@ -4,7 +4,7 @@ title: Talks/Panels
 permalink: /projects/
 description: Invited Talks and Panels | Jekaterina Novikova
 nav: true
-nav_order: 2
+nav_order: 3
 display_categories: [panels, talks]
 horizontal: false
 ---
