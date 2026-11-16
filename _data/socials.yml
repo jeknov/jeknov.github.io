@@ -40,7 +40,7 @@ orcid_id: 0000-0003-4754-6126 # your ORCID ID
 # work_url: # work page URL
 bluesky_url: https://bsky.app/profile/j-novikova-nlp.bsky.social # your bluesky URL
 x_username: J_Novikova_NLP # your X handle
-# dblp_url: # your DBLP profile url
+dblp_url: https://dblp.org/pid/142/3126.html # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
 # email: you@example.com # your email address
 # facebook_id: # your facebook id

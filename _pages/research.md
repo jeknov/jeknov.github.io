@@ -5,6 +5,7 @@ title: Research
 description: 
 nav: true
 nav_order: 1
+seo_description: "Jekaterina Novikova's research on LLM evaluation and reliability: consistency, multilingual evaluation (INCLUDE, Kaleidoscope) and multi-turn safety in high-stakes settings."
 ---
 
 ## Evaluation That Earns Trust
