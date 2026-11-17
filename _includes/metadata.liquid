@@ -34,12 +34,14 @@
     {% else %}
       {{ page.title }} | {{ title }}
     {% endif %}
+  {% elsif page.url == '/' and site.homepage_title %}
+    {{ site.homepage_title }}
   {% else %}
     {{ title }}
   {% endif %}
 </title>
 <meta name="author" content="{{ author_name }}">
-<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="description" content="{% if page.seo_description %}{{ page.seo_description }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description | strip }}{% endif %}">
 {% if page.keywords or site.keywords %}
   <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
 {% endif %}
@@ -55,18 +57,19 @@
   <!-- OpenGraph -->
   <meta property="og:site_name" content="{{ title }}">
   <meta property="og:type" content="{% if is_blog_post %}article{% else %}website{% endif %}">
-  <meta property="og:title" content="{% if page.title %}{{ title }} | {{ page.title }}{% else %}{{ title }}{% endif %}">
+  <meta property="og:title" content="{% if page.url == '/' and site.homepage_title %}{{ site.homepage_title }}{% elsif page.title %}{{ page.title }} | {{ title }}{% else %}{{ title }}{% endif %}">
   <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}">
-  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:description" content="{% if page.seo_description %}{{ page.seo_description }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description | strip }}{% endif %}">
   {% if page.og_image or site.og_image %}
     <meta property="og:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}">
+    <meta property="og:image:alt" content="{{ site.first_name }} {{ site.last_name }}">
   {% endif %}
   <meta property="og:locale" content="{{ site.lang }}">
 
   <!-- Twitter card -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ title }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{% if page.url == '/' and site.homepage_title %}{{ site.homepage_title }}{% elsif page.title %}{{ page.title }} | {{ title }}{% else %}{{ title }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.seo_description %}{{ page.seo_description }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description | strip }}{% endif %}">
   {% if page.og_image or site.og_image %}
     <meta name="twitter:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}">
   {% endif %}
@@ -220,53 +223,113 @@
         {% assign sameaslinks = sameaslinks | push: link %}
       {% else %}
         {% assign sameaslinks = sameaslinks | push: social[1].url %}
-      {% assign sameaslinks = sameaslinks | push: "https://huggingface.co/Jekaterina" %}
-      {% assign sameaslinks = sameaslinks | push: "https://aclanthology.org/people/jekaterina-novikova/" %}
-      {% assign sameaslinks = sameaslinks | push: "https://loop.frontiersin.org/people/1157893/overview" %}
     {% endcase %}
   {% endfor %}
 
+  {% comment %} Profiles without a built-in social key (set in _config.yml: extra_sameas) {% endcomment %}
+  {% for extra in site.extra_sameas %}
+    {% assign sameaslinks = sameaslinks | push: extra %}
+  {% endfor %}
+
+  {% assign person_id = site.url | append: '/#person' %}
+  {% assign page_abs_url = page.url | replace: 'index.html', '' | absolute_url %}
+  {% if page.seo_description %}
+    {% assign page_desc = page.seo_description %}
+  {% elsif page.description %}
+    {% assign page_desc = page.description %}
+  {% else %}
+    {% assign page_desc = site.description %}
+  {% endif %}
+  {% if page.url == '/' %}
+    {% assign page_name = site.homepage_title | default: author_name %}
+  {% else %}
+    {% assign page_name = page.title | append: ' | ' | append: author_name %}
+  {% endif %}
+
   <script type="application/ld+json">
     {
-        "author":
+      "@context": "https://schema.org",
+      "@graph": [
         {
-            "@type": "Person",
-            "name": "{{ author_name }}",
-            "givenName": "Jekaterina",
-            "familyName": "Novikova",
-            "alternateName": [
-                "J. Novikova",
-                "Jekaterina Novikova, PhD"
-              ],
-            "jobTitle": "AI Research Scientist",
-            "affiliation": {
-                "@type": "Organization",
-                "name": "Vanguard"
-              },
-            "knowsAbout":[
-                "Artificial Intelligence",
-                "AI",
-                "Natural Language Processing",
-                "NLP",
-                "Generative AI",
-                "GenAI",
-                "LLM",
-                "Large Language Models"
-              ],
-            "description": "Jekaterina Novikova is a Principal AI Research Scientist specializing in natural language processing, trustworthy AI, and human-robot interaction."
+          "@type": "Person",
+          "@id": {{ person_id | jsonify }},
+          "name": {{ author_name | strip | jsonify }},
+          "givenName": {{ site.first_name | jsonify }},
+          "familyName": {{ site.last_name | jsonify }},
+          "honorificSuffix": "PhD",
+          "alternateName": ["J. Novikova", "Jekaterina Novikova, PhD"],
+          "url": {{ site.url | append: '/' | jsonify }},
+          "image": {{ site.og_image | jsonify }},
+          "jobTitle": "Principal AI Research Scientist",
+          "description": {{ site.person_description | strip | jsonify }},
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Vanguard",
+            "url": "https://corporate.vanguard.com/"
+          },
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Vanguard Research Lab at the University of Toronto"
+          },
+          "memberOf": {
+            "@type": "Organization",
+            "name": "ACM-W Toronto Professional Chapter"
+          },
+          "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "University of Bath",
+            "url": "https://www.bath.ac.uk/"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Toronto",
+            "addressRegion": "ON",
+            "addressCountry": "CA"
+          },
+          "knowsAbout": [
+            "LLM evaluation",
+            "Reliability of foundation models",
+            "LLM consistency",
+            "Multi-turn safety of conversational AI",
+            "Multilingual AI evaluation",
+            "Trustworthy AI",
+            "Natural language generation evaluation",
+            "Natural language processing",
+            "Open-source AI"
+          ]{% if sameaslinks != empty %},
+          "sameAs": {{ sameaslinks | uniq | jsonify }}{% endif %}
         },
-        "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-        "@type": "{% if is_blog_post %}BlogPosting{% else %}WebSite{% endif %}",
-        "description": "{% if page.description %}{{ page.description }}{% else if site.description %}{{ site.description }}{% endif %}",
-        "headline": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
-        {% if sameaslinks != blank %}
-        "sameAs": {{ sameaslinks | jsonify }},
-        {% endif %}
-        "name": "{{ author_name }}",
-        "@context": "https://schema.org"
+        {
+          "@type": "WebSite",
+          "@id": {{ site.url | append: '/#website' | jsonify }},
+          "url": {{ site.url | append: '/' | jsonify }},
+          "name": {{ author_name | strip | jsonify }},
+          "inLanguage": {{ site.lang | jsonify }},
+          "publisher": { "@id": {{ person_id | jsonify }} }
+        },
+        {
+          "@type": "{% if page.url == '/' %}ProfilePage{% elsif is_blog_post %}BlogPosting{% else %}WebPage{% endif %}",
+          "@id": {{ page_abs_url | append: '#webpage' | jsonify }},
+          "url": {{ page_abs_url | jsonify }},
+          "name": {{ page_name | strip | jsonify }},
+          "description": {{ page_desc | strip | jsonify }},
+          "isPartOf": { "@id": {{ site.url | append: '/#website' | jsonify }} },
+          {% if page.url == '/' %}"mainEntity"{% else %}"about"{% endif %}: { "@id": {{ person_id | jsonify }} },
+          "author": { "@id": {{ person_id | jsonify }} }
+        }{% if page.url == '/' or page.url == '/podcast/' %},
+        {
+          "@type": "PodcastSeries",
+          "@id": {{ site.url | append: '/podcast/#series' | jsonify }},
+          "name": "Women in AI Research (WiAIR)",
+          "url": {{ site.url | append: '/podcast/' | jsonify }},
+          "sameAs": ["https://www.youtube.com/@WomeninAIResearch"],
+          "author": { "@id": {{ person_id | jsonify }} }
+        }{% endif %}
+      ]
     }
   </script>
 
+{% if page.url == '/podcast/' %}
 <!-- Schema for Podcast episodes -->
 
 <script type="application/ld+json">
@@ -474,7 +537,9 @@
 </script>
 
 <!-- END of Podcast episodes -->
+{% endif %}
 
+{% if page.url == '/publications/' or page.url == '/' %}
 <!-- Schema for Publications -->
 
 <script type="application/ld+json">
@@ -725,7 +790,9 @@
 </script>
 
 <!-- END of Publications -->
+{% endif %}
 
+{% if page.url == '/projects/' %}
 <!-- Schema for Talks -->
 
 <script type="application/ld+json">
@@ -978,5 +1045,6 @@
 
 
 <!-- END of Panels -->
+{% endif %}
 
 {% endif %}

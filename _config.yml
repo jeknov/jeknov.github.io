@@ -8,7 +8,20 @@ middle_name:
 last_name: Novikova
 contact_note: 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Jekaterina Novikova | AI researcher specializing in artificial intelligence, natural language processing.
+  Jekaterina Novikova, PhD: Principal AI Research Scientist at Vanguard, Toronto. Evaluation, reliability and multi-turn safety of LLMs. Host of the WiAIR podcast.
+# <title> of the homepage (other pages use "<page title> | <full name>")
+homepage_title: "Jekaterina Novikova | LLM Evaluation & Reliability Researcher"
+# Third-person bio used in the Schema.org Person markup (what search engines and AI assistants read)
+person_description: >
+  Jekaterina Novikova is a Principal AI Research Scientist at Vanguard in Toronto, working on the evaluation,
+  reliability and multi-turn safety of large language models in high-stakes financial settings.
+  She created the E2E NLG Challenge, contributed to BLOOM and BIG-Bench, and hosts the Women in AI Research (WiAIR) podcast.
+# Extra profile URLs for Schema.org "sameAs" that have no built-in key in _data/socials.yml
+extra_sameas:
+  - https://huggingface.co/Jekaterina
+  - https://aclanthology.org/people/jekaterina-novikova/
+  - https://loop.frontiersin.org/people/1157893/overview
+  - https://openreview.net/profile?id=~Jekaterina_Novikova1
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -63,7 +76,7 @@ max_width: 930px
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: true # Include Schema.org in the HTML head
-og_image: true # The site-wide (default for all links) Open Graph preview image
+og_image: https://jeknov.github.io/assets/img/jekaterina-novikova.jpg # The site-wide (default for all links) Open Graph preview image (must be a full URL)
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -79,6 +92,8 @@ openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
 google_site_verification: pBssdi5JbWwZ48hVHfPQqDlzvzHALeReZlHBapJhCgY # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
+# Not needed if you verify Bing by importing from Google Search Console. If you use the meta-tag method instead,
+# paste the ID above and set enable_bing_verification: true below.
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -311,7 +326,8 @@ scholar:
 enable_publication_badges:
   altmetric: true # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
   dimensions: true # Dimensions badge (Customization options: https://badge.dimensions.ai/)
-  google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
+  google_scholar: false # Google Scholar badge: off, Scholar blocks build-time requests from GitHub Actions so it only ever showed N/A
+  semantic_scholar: true # Semantic Scholar citation badge, fetched at build time (_plugins/semantic-scholar-citations.rb)
   inspirehep: true # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output

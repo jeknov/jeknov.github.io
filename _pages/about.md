@@ -6,7 +6,8 @@ subtitle: Evaluation & Reliability of LLMs • LLM Consistency • Multilingual 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: jekaterina-novikova.jpg
+  image_alt: Jekaterina Novikova, AI research scientist
   image_circular: false # crops the image to make it circular
 #  more_info: >
 #    <p>555 your office number</p>
@@ -44,3 +45,7 @@ My research has been recognised by the artificial intelligence and natural langu
 I was fortunate to work with brilliant researchers in the field. I have worked, among many others, with [Joana Bryson](https://www.joannajbryson.org/) (now at Hertie School in Berlin, Germany), with [Verena Rieser](https://sites.google.com/site/verenateresarieser/) (now at Google DeepMind), with [Oliver Lemon](https://sites.google.com/site/olemon/) at the [Heriot-Watt University](https://www.hw.ac.uk/about/our-schools/mathematical-and-computer-sciences) in Edinburgh, UK, and with [Frank Rudzicz](https://web.cs.dal.ca/~rudzicz/) (now at Dalhousie University in Halifax, Canada). 
 
 Previously: Director of ML Research at Winterlight Labs / Cambridge Cognition. PhD in Computer Science, [University of Bath, UK](https://www.bath.ac.uk/).
+
+#### Short bio
+
+Jekaterina Novikova is a Principal AI Research Scientist at Vanguard in Toronto, Canada, where she works on the evaluation, reliability and multi-turn safety of large language models in high-stakes financial settings, and leads two projects in the Vanguard Research Lab at the University of Toronto. She created the E2E NLG Challenge, contributed to the open-source BLOOM and BIG-Bench projects, and co-authored the INCLUDE multilingual benchmark (ICLR 2025 Spotlight). She was previously Director of ML Research at Winterlight Labs / Cambridge Cognition and holds a PhD in Computer Science from the University of Bath. She founded and hosts the Women in AI Research (WiAIR) podcast and chairs the ACM-W Toronto Professional Chapter.

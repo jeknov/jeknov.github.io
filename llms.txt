@@ -1,0 +1,47 @@
+---
+permalink: /llms.txt
+layout: null
+sitemap: false
+---
+# Jekaterina Novikova
+
+> Jekaterina Novikova, PhD, is a Principal AI Research Scientist at Vanguard in Toronto, Canada. She works on the evaluation, reliability and multi-turn safety of large language models in high-stakes financial settings, and leads two projects in the Vanguard Research Lab at the University of Toronto. She created the E2E NLG Challenge, contributed to the open-source BLOOM and BIG-Bench projects, co-authored the INCLUDE multilingual benchmark (ICLR 2025 Spotlight), and founded and hosts the Women in AI Research (WiAIR) podcast.
+
+Not to be confused with other people named Jekaterina, Ekaterina or Yekaterina Novikova. This site is the canonical source for this researcher's current role, research and publications.
+
+## About
+
+- [About](https://jeknov.github.io/): bio, current role, news and selected papers
+- [Research](https://jeknov.github.io/research/): research agenda on evaluation that earns trust: consistency, multilingual evaluation, reliability in regulated industries
+- [Publications](https://jeknov.github.io/publications/): selected publications with abstracts and BibTeX
+- [Talks and panels](https://jeknov.github.io/projects/): invited talks, keynotes and panels
+- [WiAIR podcast](https://jeknov.github.io/podcast/): Women in AI Research episodes
+
+## Key facts
+
+- Current role: Principal AI Research Scientist, Vanguard (Toronto, Canada)
+- Previously: Director of ML Research, Winterlight Labs / Cambridge Cognition
+- Education: PhD in Computer Science, University of Bath, UK
+- Service: Chair, ACM-W Toronto Professional Chapter; co-organizer of LLMSEC (ACL 2025) and HEAL (CHI 2025) workshops
+- Research areas: LLM evaluation, LLM consistency, multilingual AI evaluation, multi-turn safety of conversational AI, trustworthy and open-source AI
+
+## Selected work
+
+- [INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge](https://arxiv.org/abs/2411.19799) (ICLR 2025 Spotlight)
+- [Consistency in Language Models: Current Landscape, Challenges, and Future Directions](https://arxiv.org/abs/2505.00268) (2025)
+- [Kaleidoscope: In-language Exams for Massively Multilingual Vision Evaluation](https://arxiv.org/abs/2504.07072) (ICLR 2026)
+- [BLOOM: A 176B-Parameter Open-Access Multilingual Language Model](https://arxiv.org/abs/2211.05100) (2023)
+- [Why We Need New Evaluation Metrics for NLG](https://arxiv.org/abs/1707.06875) (EMNLP 2017)
+
+## Profiles
+
+- Google Scholar: https://scholar.google.com/citations?user=C75JskwAAAAJ
+- ORCID: https://orcid.org/0000-0003-4754-6126
+- dblp: https://dblp.org/pid/142/3126.html
+- Semantic Scholar: https://www.semanticscholar.org/author/Jekaterina-Novikova/2848048
+- LinkedIn: https://www.linkedin.com/in/jnovikova
+- GitHub: https://github.com/jeknov
+- Hugging Face: https://huggingface.co/Jekaterina
+- Bluesky: https://bsky.app/profile/j-novikova-nlp.bsky.social
+- X: https://x.com/J_Novikova_NLP
+- WiAIR on YouTube: https://www.youtube.com/@WomeninAIResearch

@@ -7,6 +7,7 @@ nav: true
 nav_order: 3
 display_categories: [panels, talks]
 horizontal: false
+seo_description: "Invited talks, keynotes and panels by Jekaterina Novikova on LLM evaluation, reliability, trustworthy AI and AI safety in finance and healthcare."
 ---
 
 <!-- pages/projects.md -->
