@@ -261,6 +261,13 @@ ninja.data = [{
           window.open("https://twitter.com/J_Novikova_NLP", "_blank");
         },
       },{
+        id: 'social-dblp',
+        title: 'DBLP',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://dblp.org/pid/142/3126.html", "_blank");
+        },
+      },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
