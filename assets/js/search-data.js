@@ -86,6 +86,9 @@ ninja.data = [{
           section: "News",},{id: "news-the-vanguard-research-lab-at-the-university-of-toronto-is-now-live-i-m-leading-two-of-its-projects-small-language-models-for-agentic-systems-and-causal-inference-in-unstructured-text-in-this-joint-initiative-between-vanguard-and-uoft-s-department-of-computer-science-established-in-2025",
           title: 'The Vanguard Research Lab at the University of Toronto is now live. I’m...',
           description: "",
+          section: "News",},{id: "news-i-participated-in-the-panel-frontiers-of-ai-safety-evaluation-oversight-and-accountability-at-the-women-in-ai-safety-workshop",
+          title: 'I participated in the panel “Frontiers of AI Safety: Evaluation, Oversight, and Accountability”...',
+          description: "",
           section: "News",},{id: "podcast-open-science-and-llms",
           title: 'Open Science and LLMs',
           description: "Guest: Dr. Valentina Pyatkin",
@@ -146,6 +149,11 @@ ninja.data = [{
           description: "Guest: Dr. Vered Shwartz",
           section: "Podcast",handler: () => {
               window.location.href = "/podcast/12_ep/";
+            },},{id: "projects-frontiers-of-ai-safety-evaluation-oversight-and-accountability",
+          title: 'Frontiers of AI Safety: Evaluation, Oversight, and Accountability',
+          description: "Women in AI Safety",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/017_project/";
             },},{id: "projects-open-model-and-open-access-in-ai",
           title: 'Open Model and Open Access in AI',
           description: "Canadian Conference on AI, Robots &amp; Vision",
