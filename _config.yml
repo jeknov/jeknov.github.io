@@ -2,11 +2,11 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: 'blank' # the website title (if blank, full name will be used instead)
+title: "blank" # the website title (if blank, full name will be used instead)
 first_name: Jekaterina
-middle_name: 
+middle_name:
 last_name: Novikova
-contact_note: 
+contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Jekaterina Novikova, PhD: Principal AI Research Scientist at Vanguard, Toronto. Evaluation, reliability and multi-turn safety of LLMs. Host of the WiAIR podcast.
 # <title> of the homepage (other pages use "<page title> | <full name>")
@@ -201,10 +201,10 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
-# - _news/announcement_*.md
+  # - _news/announcement_*.md
   - _pages/blog.md
   - _posts/
-# - _projects/?_project.md
+  # - _projects/?_project.md
   - assets/jupyter/
   - _pages/repositories.md
   - _includes/repository/

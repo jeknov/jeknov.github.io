@@ -20,7 +20,7 @@ social: false # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit:  # leave blank to include all the news in the `_news` folder
+  limit: # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
@@ -42,7 +42,7 @@ As an advocate for open-source artificial intelligence, I have contributed to ma
 
 My research has been recognised by the artificial intelligence and natural language processing community, with awards including being named among the [Top 50 Most Extraordinary Women Advancing AI](https://globalbizoutlook.com/the-50-top-most-extraordinary-women-advancing-ai-in-2024/) in 2024, the [Top 25 Women in AI in Canada](https://blog.re-work.co/top-25-women-in-ai-canada/) in 2022, and receiving the ["Industry Icon Award" from the University of Toronto](https://youtu.be/SnbylyYayuo?si=NIK6pHGmIo8UNOQA&t=173) in 2021. -->
 
-I was fortunate to work with brilliant researchers in the field. I have worked, among many others, with [Joanna Bryson](https://www.joannajbryson.org/) (now at Hertie School in Berlin, Germany), with [Verena Rieser](https://sites.google.com/site/verenateresarieser/) (now at Google DeepMind), with [Oliver Lemon](https://sites.google.com/site/olemon/) at the [Heriot-Watt University](https://www.hw.ac.uk/about/our-schools/mathematical-and-computer-sciences) in Edinburgh, UK, and with [Frank Rudzicz](https://web.cs.dal.ca/~rudzicz/) (now at Dalhousie University in Halifax, Canada). 
+I was fortunate to work with brilliant researchers in the field. I have worked, among many others, with [Joanna Bryson](https://www.joannajbryson.org/) (now at Hertie School in Berlin, Germany), with [Verena Rieser](https://sites.google.com/site/verenateresarieser/) (now at Google DeepMind), with [Oliver Lemon](https://sites.google.com/site/olemon/) at the [Heriot-Watt University](https://www.hw.ac.uk/about/our-schools/mathematical-and-computer-sciences) in Edinburgh, UK, and with [Frank Rudzicz](https://web.cs.dal.ca/~rudzicz/) (now at Dalhousie University in Halifax, Canada).
 
 Previously: Director of ML Research at Winterlight Labs / Cambridge Cognition. PhD in Computer Science, [University of Bath, UK](https://www.bath.ac.uk/).
 
