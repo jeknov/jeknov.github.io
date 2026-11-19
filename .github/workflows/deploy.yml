@@ -64,6 +64,12 @@ on:
 permissions:
   contents: write
 
+# A new push to the same PR cancels the build that's still running for the previous push.
+# Deploys to main are never cancelled mid-way.
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
 jobs:
   deploy:
     # available images: https://github.com/actions/runner-images#available-images
@@ -88,9 +94,15 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
+      - name: Install ImageMagick (cached) 🖼️
+        # Restores the .deb packages from the Actions cache instead of downloading ~25 MB from the
+        # Ubuntu mirror on every run (that download alone has taken up to 5 minutes).
+        uses: awalsh128/cache-apt-pkgs-action@v1
+        with:
+          packages: imagemagick
+          version: 1.0
       - name: Install and Build 🔧
         run: |
-          sudo apt-get update && sudo apt-get install -y imagemagick
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
           bundle exec jekyll build
