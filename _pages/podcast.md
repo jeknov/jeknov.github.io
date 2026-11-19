@@ -11,6 +11,7 @@ images:
   slider: true
 seo_description: "Women in AI Research (WiAIR), the podcast founded and hosted by Jekaterina Novikova: conversations with leading women researchers in AI."
 ---
+
 <style>
 .swiper-img-small {
   max-width: 400px;

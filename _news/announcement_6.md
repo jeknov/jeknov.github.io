@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[Kaleidoscope](https://arxiv.org/abs/2504.07072) accepted at ICLR 2026 
+[Kaleidoscope](https://arxiv.org/abs/2504.07072) accepted at ICLR 2026
